@@ -17,6 +17,16 @@
 		181A24D71DFD531C003F15D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A24D41DFD531C003F15D1 /* ViewController.m */; };
 		181A24DB1DFD845E003F15D1 /* NSObject+Coder.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A24DA1DFD845E003F15D1 /* NSObject+Coder.m */; };
 		181A24DE1DFD8875003F15D1 /* NSObject+getSecret.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A24DD1DFD8875003F15D1 /* NSObject+getSecret.m */; };
+		181A24E21DFD8D35003F15D1 /* NSArray+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A24E11DFD8D35003F15D1 /* NSArray+Addition.m */; };
+		181A24E61DFD8E9F003F15D1 /* NSObject+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A24E51DFD8E9F003F15D1 /* NSObject+Addition.m */; };
+		181A24E91DFD9035003F15D1 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A24E81DFD9035003F15D1 /* NSArray+Log.m */; };
+		181A24EC1DFD918C003F15D1 /* NSAttributedString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A24EB1DFD918C003F15D1 /* NSAttributedString+Addition.m */; };
+		181A24EF1DFD982F003F15D1 /* UIButton+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A24EE1DFD982F003F15D1 /* UIButton+Addition.m */; };
+		181A24F21DFD9983003F15D1 /* UIColor+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A24F11DFD9983003F15D1 /* UIColor+Addition.m */; };
+		181A24F51DFD9BC9003F15D1 /* UILabel+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A24F41DFD9BC9003F15D1 /* UILabel+Addition.m */; };
+		181A24F81DFD9C7F003F15D1 /* UIScreen+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A24F71DFD9C7F003F15D1 /* UIScreen+Addition.m */; };
+		181A24FB1DFD9D19003F15D1 /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A24FA1DFD9D19003F15D1 /* UIView+Addition.m */; };
+		181A24FE1DFD9DA0003F15D1 /* UIViewController+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A24FD1DFD9DA0003F15D1 /* UIViewController+Addition.m */; };
 		8215340DC5FAEF96343E3273 /* libPods-Tools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A6C5E150BF61828B4440DD9 /* libPods-Tools.a */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +50,27 @@
 		181A24DA1DFD845E003F15D1 /* NSObject+Coder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Coder.m"; sourceTree = "<group>"; };
 		181A24DC1DFD8875003F15D1 /* NSObject+getSecret.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+getSecret.h"; sourceTree = "<group>"; };
 		181A24DD1DFD8875003F15D1 /* NSObject+getSecret.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+getSecret.m"; sourceTree = "<group>"; };
+		181A24E01DFD8D35003F15D1 /* NSArray+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Addition.h"; sourceTree = "<group>"; };
+		181A24E11DFD8D35003F15D1 /* NSArray+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Addition.m"; sourceTree = "<group>"; };
+		181A24E31DFD8E5F003F15D1 /* PrivateAddtions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrivateAddtions.h; sourceTree = "<group>"; };
+		181A24E41DFD8E9F003F15D1 /* NSObject+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Addition.h"; sourceTree = "<group>"; };
+		181A24E51DFD8E9F003F15D1 /* NSObject+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Addition.m"; sourceTree = "<group>"; };
+		181A24E71DFD9035003F15D1 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		181A24E81DFD9035003F15D1 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		181A24EA1DFD918C003F15D1 /* NSAttributedString+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Addition.h"; sourceTree = "<group>"; };
+		181A24EB1DFD918C003F15D1 /* NSAttributedString+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Addition.m"; sourceTree = "<group>"; };
+		181A24ED1DFD982F003F15D1 /* UIButton+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Addition.h"; sourceTree = "<group>"; };
+		181A24EE1DFD982F003F15D1 /* UIButton+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Addition.m"; sourceTree = "<group>"; };
+		181A24F01DFD9983003F15D1 /* UIColor+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Addition.h"; sourceTree = "<group>"; };
+		181A24F11DFD9983003F15D1 /* UIColor+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addition.m"; sourceTree = "<group>"; };
+		181A24F31DFD9BC9003F15D1 /* UILabel+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Addition.h"; sourceTree = "<group>"; };
+		181A24F41DFD9BC9003F15D1 /* UILabel+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Addition.m"; sourceTree = "<group>"; };
+		181A24F61DFD9C7F003F15D1 /* UIScreen+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+Addition.h"; sourceTree = "<group>"; };
+		181A24F71DFD9C7F003F15D1 /* UIScreen+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+Addition.m"; sourceTree = "<group>"; };
+		181A24F91DFD9D19003F15D1 /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		181A24FA1DFD9D19003F15D1 /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
+		181A24FC1DFD9DA0003F15D1 /* UIViewController+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Addition.h"; sourceTree = "<group>"; };
+		181A24FD1DFD9DA0003F15D1 /* UIViewController+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Addition.m"; sourceTree = "<group>"; };
 		72417C6E82792A567AE85C02 /* Pods-Tools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tools.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tools/Pods-Tools.release.xcconfig"; sourceTree = "<group>"; };
 		8A6C5E150BF61828B4440DD9 /* libPods-Tools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96929CF186508F5FDA3832B7 /* Pods-Tools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tools/Pods-Tools.debug.xcconfig"; sourceTree = "<group>"; };
@@ -78,6 +109,7 @@
 		181A24B01DFD46DC003F15D1 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				181A24DF1DFD8CDF003F15D1 /* Additions */,
 				181A24C81DFD4970003F15D1 /* ToolManager */,
 				181A24D01DFD531C003F15D1 /* Main */,
 				181A24D51DFD531C003F15D1 /* Others */,
@@ -138,6 +170,34 @@
 			children = (
 			);
 			path = Others;
+			sourceTree = "<group>";
+		};
+		181A24DF1DFD8CDF003F15D1 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				181A24E01DFD8D35003F15D1 /* NSArray+Addition.h */,
+				181A24E11DFD8D35003F15D1 /* NSArray+Addition.m */,
+				181A24E71DFD9035003F15D1 /* NSArray+Log.h */,
+				181A24E81DFD9035003F15D1 /* NSArray+Log.m */,
+				181A24EA1DFD918C003F15D1 /* NSAttributedString+Addition.h */,
+				181A24EB1DFD918C003F15D1 /* NSAttributedString+Addition.m */,
+				181A24E41DFD8E9F003F15D1 /* NSObject+Addition.h */,
+				181A24E51DFD8E9F003F15D1 /* NSObject+Addition.m */,
+				181A24ED1DFD982F003F15D1 /* UIButton+Addition.h */,
+				181A24EE1DFD982F003F15D1 /* UIButton+Addition.m */,
+				181A24F01DFD9983003F15D1 /* UIColor+Addition.h */,
+				181A24F11DFD9983003F15D1 /* UIColor+Addition.m */,
+				181A24F31DFD9BC9003F15D1 /* UILabel+Addition.h */,
+				181A24F41DFD9BC9003F15D1 /* UILabel+Addition.m */,
+				181A24F61DFD9C7F003F15D1 /* UIScreen+Addition.h */,
+				181A24F71DFD9C7F003F15D1 /* UIScreen+Addition.m */,
+				181A24F91DFD9D19003F15D1 /* UIView+Addition.h */,
+				181A24FA1DFD9D19003F15D1 /* UIView+Addition.m */,
+				181A24FC1DFD9DA0003F15D1 /* UIViewController+Addition.h */,
+				181A24FD1DFD9DA0003F15D1 /* UIViewController+Addition.m */,
+				181A24E31DFD8E5F003F15D1 /* PrivateAddtions.h */,
+			);
+			path = Additions;
 			sourceTree = "<group>";
 		};
 		96798F3DFC9B7DEE43B0DF92 /* Pods */ = {
@@ -282,11 +342,21 @@
 			files = (
 				181A24D71DFD531C003F15D1 /* ViewController.m in Sources */,
 				181A24CB1DFD49B0003F15D1 /* NetworkTools.m in Sources */,
+				181A24FE1DFD9DA0003F15D1 /* UIViewController+Addition.m in Sources */,
 				181A24CF1DFD4EE6003F15D1 /* HomeTableViewController.m in Sources */,
 				181A24DB1DFD845E003F15D1 /* NSObject+Coder.m in Sources */,
+				181A24E61DFD8E9F003F15D1 /* NSObject+Addition.m in Sources */,
+				181A24E91DFD9035003F15D1 /* NSArray+Log.m in Sources */,
+				181A24E21DFD8D35003F15D1 /* NSArray+Addition.m in Sources */,
 				181A24D61DFD531C003F15D1 /* AppDelegate.m in Sources */,
 				181A24B31DFD46DC003F15D1 /* main.m in Sources */,
 				181A24DE1DFD8875003F15D1 /* NSObject+getSecret.m in Sources */,
+				181A24F51DFD9BC9003F15D1 /* UILabel+Addition.m in Sources */,
+				181A24EC1DFD918C003F15D1 /* NSAttributedString+Addition.m in Sources */,
+				181A24FB1DFD9D19003F15D1 /* UIView+Addition.m in Sources */,
+				181A24F21DFD9983003F15D1 /* UIColor+Addition.m in Sources */,
+				181A24EF1DFD982F003F15D1 /* UIButton+Addition.m in Sources */,
+				181A24F81DFD9C7F003F15D1 /* UIScreen+Addition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
