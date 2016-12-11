@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HomeTableViewController.h
 //  Tools
 //
 //  Created by 戴庆 on 16/12/11.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITabBarController
-
+@interface HomeTableViewController : UITableViewController
 
 @end
-
