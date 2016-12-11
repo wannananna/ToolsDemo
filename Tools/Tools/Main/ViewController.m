@@ -21,6 +21,8 @@
     UIViewController *homeVC = [self controllerWith:@"HomeTableViewController" andTitle:@"首页" andImgName:nil];
     
     self.viewControllers = @[homeVC];
+    
+    
 }
 
 - (UIViewController *)controllerWith:(NSString *)className andTitle:(NSString *)titleName andImgName:(NSString *)imageName {
