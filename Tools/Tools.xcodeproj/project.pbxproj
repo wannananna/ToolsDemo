@@ -13,6 +13,7 @@
 		181A24BC1DFD46DC003F15D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181A24BA1DFD46DC003F15D1 /* Main.storyboard */; };
 		181A24BE1DFD46DC003F15D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181A24BD1DFD46DC003F15D1 /* Assets.xcassets */; };
 		181A24C11DFD46DC003F15D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181A24BF1DFD46DC003F15D1 /* LaunchScreen.storyboard */; };
+		181A24CB1DFD49B0003F15D1 /* NetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A24CA1DFD49B0003F15D1 /* NetworkTools.m */; };
 		8215340DC5FAEF96343E3273 /* libPods-Tools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A6C5E150BF61828B4440DD9 /* libPods-Tools.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,8 @@
 		181A24BD1DFD46DC003F15D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		181A24C01DFD46DC003F15D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		181A24C21DFD46DC003F15D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181A24C91DFD49B0003F15D1 /* NetworkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTools.h; sourceTree = "<group>"; };
+		181A24CA1DFD49B0003F15D1 /* NetworkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkTools.m; sourceTree = "<group>"; };
 		72417C6E82792A567AE85C02 /* Pods-Tools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tools.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tools/Pods-Tools.release.xcconfig"; sourceTree = "<group>"; };
 		8A6C5E150BF61828B4440DD9 /* libPods-Tools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96929CF186508F5FDA3832B7 /* Pods-Tools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tools/Pods-Tools.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,6 +68,7 @@
 		181A24B01DFD46DC003F15D1 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				181A24C81DFD4970003F15D1 /* ToolManager */,
 				181A24B41DFD46DC003F15D1 /* AppDelegate.h */,
 				181A24B51DFD46DC003F15D1 /* AppDelegate.m */,
 				181A24B71DFD46DC003F15D1 /* ViewController.h */,
@@ -84,6 +88,15 @@
 				181A24B21DFD46DC003F15D1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		181A24C81DFD4970003F15D1 /* ToolManager */ = {
+			isa = PBXGroup;
+			children = (
+				181A24C91DFD49B0003F15D1 /* NetworkTools.h */,
+				181A24CA1DFD49B0003F15D1 /* NetworkTools.m */,
+			);
+			path = ToolManager;
 			sourceTree = "<group>";
 		};
 		96798F3DFC9B7DEE43B0DF92 /* Pods */ = {
@@ -226,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181A24CB1DFD49B0003F15D1 /* NetworkTools.m in Sources */,
 				181A24B91DFD46DC003F15D1 /* ViewController.m in Sources */,
 				181A24B61DFD46DC003F15D1 /* AppDelegate.m in Sources */,
 				181A24B31DFD46DC003F15D1 /* main.m in Sources */,
